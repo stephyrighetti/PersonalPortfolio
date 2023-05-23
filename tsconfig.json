@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "components/Skills.jsx", "components/Scroll.jsx", "components/Projects.jsx", "components/Layout.jsx", "components/LanguageSwitcher.jsx", "components/Hero.jsx", "components/Header.jsx", "components/HamburgerMenu.jsx", "components/Footer.jsx", "components/Experience.jsx", "components/Contact.jsx", "components/AboutMe.jsx", "pages/_app.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
