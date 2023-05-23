@@ -18,7 +18,7 @@ const resources = {
         "I specialize in building websites and applications, with a very attentive eye to detail.",
       "about.me.title": "About me",
       "bio.description.first":
-        "Hello, thank you for visiting my page! I am a fullstack developer with 1 year and a half of experience. I am currently working in Altimetrik mainly as a Frontend developer. I began my journey as a programmer back in 2020 and in 2021 I was awarded with a scholarship from Mercado Libre and Globant to become a fullstack developer.",
+        "Hello, thank you for visiting my page! I'm a fullstack developer with 1 year and a half of experience. I'm currently working in Altimetrik mainly as a Frontend developer. I began my journey as a programmer back in 2020 and in 2021 I was awarded with a scholarship from Mercado Libre and Globant to become a fullstack developer.",
       "bio.description.second":
         "What I enjoy most about web development is the opportunity to continuously learn and improve my skills. I am passionate about creating high-quality user experiences that are both functional and visually appealing. When I am not coding, you can find me reading or watching movies. Let's conect!",
       "button.cv": "Download resume",
@@ -49,7 +49,7 @@ const resources = {
       "button.send": "Send",
       "contact.info":
         "If you want to know more about my projects or me, please don't hesitate to visit my social media",
-      "social.media": "My social media:",
+      "social.media": "My social media",
       "footer.text": "Made with ♡ by Stephanie Righetti",
       "projects.title": "Projects",
       "game.finder": "Game finder application",
@@ -109,7 +109,7 @@ const resources = {
       "arg.time": "Oct 2020 - Dic 2020",
       "arg.description":
         "Curso dictado por el Ministerio de Desarrollo Productivo. Conceptos básicos de programación con pseudo código y JavaScript",
-      "social.media": "Mis redes sociales:",
+      "social.media": "Mis redes sociales",
       "footer.text": "Hecho con ♡ por Stephanie Righetti",
       "projects.title": "Proyectos",
       "game.finder": "Buscador de juegos",
