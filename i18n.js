@@ -7,7 +7,7 @@ const resources = {
     translation: {
       "button.label": "En",
       "header.about": "About",
-      "header.skills": "Skills",
+      "header.skills": "Stack",
       "header.experience": "Experience",
       "header.projects": "Projects",
       "header.contact": "Contact",
@@ -67,7 +67,7 @@ const resources = {
     translation: {
       "button.label": "Es",
       "header.about": "Acerca",
-      "header.skills": "Habilidades",
+      "header.skills": "Stack",
       "header.experience": "Experiencia",
       "header.projects": "Proyectos",
       "header.contact": "Contacto",
@@ -76,13 +76,13 @@ const resources = {
         "Soy una desarrolladora de software de Buenos Aires, Argentina.",
       "hero.about.second":
         "Me especializo en construir websites y aplicaciones, con un ojo atento para el detalle.",
-      "about.me.title": "Acerca de mi",
+      "about.me.title": "Sobre mi",
       "bio.description.first":
         "Hola, gracias por visitar mi página! Soy una desarrolladora fullstack con 1 año y medio de experiencia. Actualmente trabajo en Altimetrik principalmente como desarrolladora Frontend. Comencé mi camino como programadora en 2020 y en 2021 me otorgaron una beca de Mercado Libre y Globant para convertirme en desarrolladora fullstack.",
       "bio.description.second":
         "Lo que más disfruto del desarrollo web es la oportunidad de aprender y mejorar continuamente mis habilidades. Me apasiona crear experiencias de usuario de alta calidad que sean tanto funcionales como visualmente atractivas. Cuando no estoy codeando, podés encontrarme leyendo o viendo películas. Conectemos!",
       "button.cv": "Descargar CV",
-      "skills.title": "Habilidades",
+      "skills.title": "Stack",
       "database.title": "Bases de datos",
       "version.control": "Control de versiones",
       "coming.soon": "Más habilidades próximamente...",
