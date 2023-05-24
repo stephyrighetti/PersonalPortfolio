@@ -6,7 +6,7 @@ import LanguageSwitcher from "./LanguageSwitcher";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-const Header = ({ setShowMenu, showIcon, setShowIcon, setSwitched }) => {
+const Header = ({ setShowMenu, showIcon, setShowIcon }) => {
   const { t } = useTranslation();
 
   useEffect(() => {
