@@ -3,7 +3,7 @@ import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 
-const LanguageSwitcher = ({ setSwitched }) => {
+const LanguageSwitcher = () => {
   const { t, i18n } = useTranslation();
 
   const handleLanguageSwitch = () => {

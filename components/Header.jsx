@@ -81,7 +81,7 @@ const Header = ({ setShowMenu, showIcon, setShowIcon }) => {
             <p>05.</p>
             <li>{t("header.contact")}</li>
           </ScrollLink>
-          <LanguageSwitcher setSwitched={setSwitched} />
+          <LanguageSwitcher />
         </ul>
       </nav>
     </header>
