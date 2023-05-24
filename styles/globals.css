@@ -911,7 +911,7 @@ footer p {
   }
 
   .about-me-container {
-    height: 800px;
+    height: 920px;
   }
 
   .about-me-container, .skills-container, .experience-container, .projects-container, .contact-container {
@@ -945,7 +945,7 @@ footer p {
   }
 
   .skills-container {
-    height: 750px;
+    height: 920px;
   }
 
   .skills-title::after {
