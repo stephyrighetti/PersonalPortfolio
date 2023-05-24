@@ -6,7 +6,7 @@ import LanguageSwitcher from "./LanguageSwitcher";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-const Header = ({ setShowMenu, showIcon, setShowIcon }) => {
+const Header = ({ setShowMenu, showIcon, setShowIcon, setSwitched }) => {
   const { t } = useTranslation();
 
   useEffect(() => {
@@ -81,7 +81,7 @@ const Header = ({ setShowMenu, showIcon, setShowIcon }) => {
             <p>05.</p>
             <li>{t("header.contact")}</li>
           </ScrollLink>
-          <LanguageSwitcher />
+          <LanguageSwitcher setSwitched={setSwitched} />
         </ul>
       </nav>
     </header>

@@ -18,6 +18,7 @@ export default function App({ Component, pageProps }) {
         showIcon={showIcon}
         setShowIcon={setShowIcon}
         showMenu={showMenu}
+        setSwitched={setSwitched}
         setShowMenu={setShowMenu}>
         <Component {...pageProps} />
       </Layout>

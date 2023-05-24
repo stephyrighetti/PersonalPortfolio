@@ -20,7 +20,7 @@ const resources = {
       "bio.description.first":
         "Hello, thank you for visiting my page! I'm a fullstack developer with 1 year and a half of experience. I'm currently working in Altimetrik mainly as a Frontend developer. I began my journey as a programmer back in 2020 and in 2021 I was awarded with a scholarship from Mercado Libre and Globant to become a fullstack developer.",
       "bio.description.second":
-        "What I enjoy most about web development is the opportunity to continuously learn and improve my skills. I am passionate about creating high-quality user experiences that are both functional and visually appealing. When I am not coding, you can find me reading or watching movies. Let's conect!",
+        "What I enjoy most about web development is the opportunity to continuously learn and improve my skills. I am passionate about creating high-quality user experiences that are both functional and visually appealing. When I am not coding, you can find me reading or watching movies. Let's connect!",
       "button.cv": "Download resume",
       "skills.title": "Skills",
       "database.title": "Database",
@@ -42,7 +42,7 @@ const resources = {
         " Bootcamp created alongside Mercado Libre and Globant where I am studying fullstack web development.",
       "arg.time": "Oct 2020 - Dec 2020",
       "arg.description":
-        " Course dictated by the Ministry of Productive Development. Basic programming with pseudocode and JavaScript.",
+        " Course dictated by the Ministry of Productive Development. In it I learned the basics of programming with JavaScript.",
       "contact.title": "Contact me!",
       "form.name": "Name",
       "form.message": "Message",
@@ -80,7 +80,7 @@ const resources = {
       "bio.description.first":
         "Hola, gracias por visitar mi página! Soy una desarrolladora fullstack con 1 año y medio de experiencia. Actualmente trabajo en Altimetrik principalmente como desarrolladora Frontend. Comencé mi camino como programadora en 2020 y en 2021 me otorgaron una beca de Mercado Libre y Globant para convertirme en desarrolladora fullstack.",
       "bio.description.second":
-        "Lo que más disfruto del desarrollo web es la oportunidad de aprender y mejorar continuamente mis habilidades. Me apasiona crear experiencias de usuario de alta calidad que sean tanto funcionales como visualmente atractivas. Cuando no estoy codeando, puedes encontrarme leyendo o viendo películas. Conectemos!",
+        "Lo que más disfruto del desarrollo web es la oportunidad de aprender y mejorar continuamente mis habilidades. Me apasiona crear experiencias de usuario de alta calidad que sean tanto funcionales como visualmente atractivas. Cuando no estoy codeando, podés encontrarme leyendo o viendo películas. Conectemos!",
       "button.cv": "Descargar CV",
       "skills.title": "Habilidades",
       "database.title": "Bases de datos",
@@ -108,7 +108,7 @@ const resources = {
         "Bootcamp creado junto a Mercado Libre y Globant donde estoy estudiando desarrollo web fullstack.",
       "arg.time": "Oct 2020 - Dic 2020",
       "arg.description":
-        "Curso dictado por el Ministerio de Desarrollo Productivo. Conceptos básicos de programación con pseudo código y JavaScript",
+        "Curso dictado por el Ministerio de Desarrollo Productivo. En él aprendí las bases de la programación con JavaScript",
       "social.media": "Mis redes sociales",
       "footer.text": "Hecho con ♡ por Stephanie Righetti",
       "projects.title": "Proyectos",

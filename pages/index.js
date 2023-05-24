@@ -12,7 +12,7 @@ import Projects from "../components/Projects";
 import Footer from "../components/Footer";
 import { useRef, useEffect } from "react";
 
-export default function Home() {
+export default function Home({ setSwitched, switched }) {
   const aboutMeRef = useRef(null);
 
   useEffect(() => {
@@ -37,7 +37,7 @@ export default function Home() {
         <Hero />
         <Scroll targetRef={aboutMeRef} />
       </section>
-      <AboutMe aboutMeRef={aboutMeRef} />
+      <AboutMe aboutMeRef={aboutMeRef} switched={switched} />
       <Skills />
       <Experience />
       <Projects />
