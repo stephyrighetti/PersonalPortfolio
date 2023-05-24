@@ -918,6 +918,10 @@ footer p {
     padding: 30px 25px;
   }
 
+  .projects-container {
+    height: 2200px;
+  }
+
   .about-me-title, .contact-me-title, .skills-title, .experience-container h2, .projects-container h2 {
     font-size: 1.6rem;
   }
