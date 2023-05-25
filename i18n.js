@@ -22,7 +22,7 @@ const resources = {
       "bio.description.second":
         "What I enjoy most about web development is the opportunity to continuously learn and improve my skills. I am passionate about creating high-quality user experiences that are both functional and visually appealing. When I am not coding, you can find me reading or watching movies. Let's connect!",
       "button.cv": "Download resume",
-      "skills.title": "Skills",
+      "skills.title": "Stack",
       "database.title": "Database",
       "version.control": "Version control",
       "coming.soon": "More coming soon...",

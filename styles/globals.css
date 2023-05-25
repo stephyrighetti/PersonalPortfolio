@@ -991,11 +991,11 @@ footer p {
   }
 
   .timeline-line {
-    height: 300px;
+    height: 330px;
   }
 
   .timeline-line-2 {
-    height: 313px;
+    height: 320px;
   }
 
   .exp-cont {
@@ -1006,6 +1006,14 @@ footer p {
 
   .projects-container h2::after {
     width: 95px;
+  }
+
+  .game-finder-img {
+    height: 260px;
+  }
+
+  .adventure-img {
+    height: 180px;
   }
 
   .email-adress {
@@ -1030,5 +1038,19 @@ footer p {
     justify-content: center;
     padding: 8px;
   }
+
+}
+
+/*Larger displays*/
+@media screen and (min-width: 1336px) and (min-height: 1024px) {
+
+  .about-me-container, .skills-container, .experience-container {
+    height: 70vh;
+  }
+
+  .contact-container {
+    height: 35vh;
+  }
+
 
 }
