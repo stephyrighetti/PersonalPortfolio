@@ -302,14 +302,12 @@ section {
 
 .about-me-container, .skills-container, .projects-container, .experience-container {
   margin-top: 25px;
-  /* height: 100vh; */
   padding: 50px 125px;
 }
 
 .contact-container {
   margin-top: 25px;
-  height: 50vh;
-  /* width: 1250px; */
+  /* height: 50vh; */
   padding: 50px 125px;
 }
 
@@ -535,6 +533,7 @@ section {
 
 .projects-container {
   height: 1124px;
+  margin-bottom: 110px;
 }
 
 .projects-container h2::after {
@@ -545,7 +544,7 @@ section {
   display: flex;
   flex-direction: column;
   height: 196px;
-  gap: 55px;
+  gap: 75px;
   margin-top: 25px;
 }
 
@@ -1050,26 +1049,20 @@ footer p {
 }
 
 /* Larger displays */
-/* @media screen and (min-width: 1336px) and (min-height: 1024px) {
+
+@media screen and (min-width: 1792px) {
 
   .about-me-container, .skills-container, .experience-container {
     height: 70vh;
   }
 
-  .contact-container {
-    height: 35vh;
-  }
-
-} */
-
-@media screen and (min-width: 1792px) and (min-height: 916px) {
-
-  .about-me-container, .skills-container, .experience-container {
-    height: 70vh;
+  .about-me-container, .skills-container, .experience-container, .projects-container, .contact-container {
+    padding: 50px 300px;
   }
 
   .projects-container {
     height: 1300px;
+    margin-bottom: 0;
   }
 
   .projects-elem {
@@ -1080,5 +1073,7 @@ footer p {
     height: 35vh;
   }
 
-
+  footer {
+    padding: 15px 15px 15px 300px;
+  }
 }
