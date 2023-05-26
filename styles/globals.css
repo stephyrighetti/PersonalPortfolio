@@ -30,6 +30,7 @@ body {
 
 html {
   background-color: var(white-background);
+  overflow-x: hidden;
 }
 
 a {
@@ -167,6 +168,7 @@ button {
 main {
   height: 100vh;
   background: linear-gradient(180deg,var(--dark-blue-bkg),var(--bkg-gradient-one));
+  width: 100%;
 }    
 
 
@@ -298,15 +300,16 @@ section {
   padding-top: 50px;
 }
 
-.about-me-container, .skills-container, .projects-container, .contact-me-container, .experience-container {
+.about-me-container, .skills-container, .projects-container, .experience-container {
   margin-top: 25px;
-  height: 100vh;
+  /* height: 100vh; */
   padding: 50px 125px;
 }
 
 .contact-container {
   margin-top: 25px;
   height: 50vh;
+  /* width: 1250px; */
   padding: 50px 125px;
 }
 
@@ -747,6 +750,11 @@ footer p {
 /*Tablet*/
 
 @media (max-width: 820px) {
+
+  main, .contact-container {
+    width: 100%;
+  }
+
   .title-name {
     display:none;
   }
@@ -1041,11 +1049,31 @@ footer p {
 
 }
 
-/*Larger displays*/
-@media screen and (min-width: 1336px) and (min-height: 1024px) {
+/* Larger displays */
+/* @media screen and (min-width: 1336px) and (min-height: 1024px) {
 
   .about-me-container, .skills-container, .experience-container {
     height: 70vh;
+  }
+
+  .contact-container {
+    height: 35vh;
+  }
+
+} */
+
+@media screen and (min-width: 1792px) and (min-height: 916px) {
+
+  .about-me-container, .skills-container, .experience-container {
+    height: 70vh;
+  }
+
+  .projects-container {
+    height: 1300px;
+  }
+
+  .projects-elem {
+    gap: 90px;
   }
 
   .contact-container {
